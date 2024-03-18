@@ -59,6 +59,9 @@ def registration(request):
 # def logout_request(request):
 # ...
 
+
+
+#Create new registration
 @csrf_exempt
 def registration(request):
     context = {}
